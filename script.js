@@ -73,3 +73,16 @@ var swiper = new Swiper(".card_slider", {
         },
     },
 });
+
+// ============= Scroll Reveal ============
+const sr = ScrollReveal({  
+    origin: 'right',
+    distance: '60px',
+    duration: 2500,
+    delay: 400,
+    // reset: true   for repeat animation
+})
+
+sr.reveal(`.swiper, .right-container`)
+sr.reveal(`.left-side-bar`, {origin: 'left'})
+sr.reveal(`.navbar`, {origin: 'top'})

@@ -132,7 +132,7 @@ a {
     }
     .swiper {
         /* box-shadow: 0 0 50px black; */
-        overflow: auto !important;
+        overflow: hidden !important;
     }
 
 
@@ -191,10 +191,8 @@ a {
     }
     .swiper {
         /* box-shadow: 0 0 50px black; */
-        overflow: auto !important;
+        overflow: hidden !important;
     }
-
-
 
 }
 
